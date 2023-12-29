@@ -1,5 +1,4 @@
 "use client"
-import { Tests } from "@repo/ui/tests";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import BreakLength from "./components/BreakLength";
@@ -32,7 +31,7 @@ export default function Home() {
                   breakLength={breakLength}
                    />
       </div>
-      <Tests />
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </main>
   );
 }
